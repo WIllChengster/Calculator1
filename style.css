@@ -1,0 +1,88 @@
+body{
+    width:100vw;
+    height:100vh;
+}
+
+.container{
+    width: 35%;
+    height: 80%;
+    background-color: yellow;
+    border:2px black solid;
+
+}
+.displayOuter{
+    background-color: white;
+    border: 2px black solid;
+    height: 10%;
+    width: 90%;
+    margin: 5% auto 0 auto;
+
+
+}
+.displayInner{
+    background-color: deepskyblue;
+    height: 90%;
+    width: 90%;
+    margin:3px auto;
+    text-align:right;
+    font-size:50px;
+}
+.numbers{
+    height: 60%;
+    width:60%;
+    display:inline-block;
+    margin-top:3%;
+    margin-left:5%;
+}
+
+.rows{
+    margin-left: 5%;
+    width: 23%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+button{
+    border:2px black solid;
+    font-family: 'Lobster', cursive;
+    font-size:50px;
+    border-radius: 25%;
+
+}
+.rows>button{
+    width: 95%;
+    height: 20%;
+    margin: 5% 2px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.clear{
+    width: 60%;
+    height: 15%;
+    margin-top: 5%;
+    display: inline-block;
+    margin-left:5%;
+}
+.clear>button{
+    height: 90%;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: rgb(180, 87, 61)
+}
+.operators{
+    height: 75%;
+    width: 30%;
+    display: inline-block;
+    float: right;
+    margin-top: -18%;
+    margin-right: 4%;
+}
+
+.operators>button{
+    width: 95%;
+    height: 20%;
+    margin: 5% 2px;
+    box-sizing: border-box;
+}
