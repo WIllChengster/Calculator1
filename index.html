@@ -4,21 +4,23 @@
     <head>
         <title>Calculator</title>
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-        <script href="main.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script src="http://learning-fuze.github.io/calculator/calculator.js"></script>
+        <script src="main.js"></script>
     </head>
     <body>
         <div class="container">
             <div class="displayOuter">
-                <div class="displayInner"> 5435432</div>
+                <div class="displayInner" id="displayArea"></div>
             </div>
             <div class="clear">
                 <button>C</button>
-                <button>CE</button>
+                <button>AC</button>
             </div>
             <div class="numbers">
                 <div class="rows">
-                    <button>7</button>
+                    <button value="7">7</button>
                     <button>4</button>
                     <button>1</button>
                     <button>0</button>
