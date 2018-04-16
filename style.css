@@ -75,7 +75,7 @@ button{
     height: 75%;
     width: 30%;
     display: inline-block;
-    float: right;
+    /* float: right; */
     margin-top: -18%;
     margin-right: 4%;
 }
